@@ -1,0 +1,83 @@
+body{background-color: #dddddd}
+.cobs{
+	margin: auto;
+	text-align: center;
+	background-color: rebeccapurple;
+	font-family: sans-serif;
+	color: whitesmoke;
+	width: 100%;
+	height: 100%;
+	font-weight: bold;
+}
+.warna{
+	width: 100%;
+	height: 100%;
+	background: url(foto/web.webp);
+
+}
+.kembali{
+	height: 10%;
+	width: 100%;
+	color: #9AA3AD;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+#asd{
+	width: 30%;
+	float: left;
+	height: 30%;
+	background: url(foto/daftar.jpg);
+}
+#header{
+	width: 100%
+	float: left;
+	height: 300px;
+	background: url(foto/estetik.jpg);
+}
+.navbar{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	background-color:skyblue;
+	padding: 15px;
+}
+.logo{
+	margin-right: 50px;
+}
+.navbar a{
+	text-decoration: none;
+	color: inherit;
+}
+.list{
+	list-style: none;
+	display: flex;
+	grid-gap: 25px;
+}
+ .title{ 
+         margin-bottom: 10px;
+         height: 100%; 
+         text-align:center; 
+    
+         color: #9AA3AD;
+         background-color: #294D4D;
+         width: 50%;  
+         } 
+         input[type="text"] 
+         { 
+         font-size: 22px;
+       /*border-radius: 7%;*/
+         background-color:white; 
+         height: 50%;
+         width:100% 
+         }
+         input[type="button"].hasil{
+          background-color: #294D4D;
+         }
+         input[type="button"].kode{
+          background-color: #294D4D;
+         }
+
+}
